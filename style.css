@@ -1,0 +1,77 @@
+/* GENERAL SETTING ----------------------------------------------- */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: #eee;
+  padding: 2rem 5rem;
+  width: 80%;
+}
+
+.heading--1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* GAME SECTION ----------------------------------------------- */
+.game-container {
+  background-color: green;
+  border: 5px solid grey;
+  padding: 2rem;
+}
+
+.game {
+  min-height: 30rem;
+}
+
+.game + .game {
+  margin-top: 5rem;
+}
+
+.game-title {
+  color: white;
+}
+
+.card {
+  font-size: 18rem;
+  background-color: white;
+  color: black;
+}
+
+/* BUTTON SECTION ----------------------------------------------- */
+.button-container {
+  text-align: center;
+}
+
+.button-heading {
+  margin-block: 2rem;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.btn {
+  font-size: 2rem;
+  width: 15rem;
+  cursor: pointer;
+}
